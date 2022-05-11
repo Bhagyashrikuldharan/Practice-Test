@@ -1,0 +1,57 @@
+HTML Behaviour
+
+There is a form element with no action.
+
+There is a h3 element with text Cargo Shipment Form
+There is a table element. It has the following elements:
+There is a tr element. It has the following elements:
+There is a td element. The text is Name of Cargo
+There is a td element. It has the following elements:
+There is an input element of type text and id cargoName. It is a mandatory field and the maximum length of textbox is 30 characters.
+There is a tr element, It has the following elements:
+There is a td element. The text is Gross Weight(in KG)
+There is a td element. It has the following elements:
+There is an input element with type number and id cargoGrossWeight.
+There is a tr element. It has the following elements:
+There is a td element. The text is Net Weight(in KG)
+There is a td element. It has the following elements:
+There is an input element with type number and id cargoNetWeight.
+There is a tr element. It has the following elements:
+There is a td element. The text is Source
+There is a td element. It has the following elements:
+There is a select element of id sourceSelect. It has the following options:
+An option element with value bangalore and text Bangalore
+An option element with value chennai and text Chennai
+An option element with value hyderabad and text Hyderabad
+An option element with value newdelhi and text New Delhi
+There is a tr element. It has the following elements:
+There is a td element. The text is Destination
+There is a td element. It has the following elements
+There is a select element of id destinationSelect. It has the following options:
+An option element with value bangalore and text Bangalore
+An option element with value chennai and text Chennai
+An option element with value hyderabad and text Hyderabad
+An option element with value newdelhi and text New Delhi
+There is an input element of type button and id submitButton and value Submit Form
+There is a div element with id output
+
+JS Behaviour
+
+The following behavior is to be implemented:
+
+The input element with id submitButton has the following event handler on click even:
+
+You should check for the following conditions:
+
+cargo gross weight is greater than or equal to cargo net weight.
+source and destination should not be the same
+The cargo name should be valid. The validity requirements are mentioned in HTML behavior.
+If all the above conditions are satisfied, then you should populate the div element of id “output” with the message Form submitted successfully!
+
+If the first condition fails, then you should populate the div element of id output with the message gross weight cannot be less than net weight
+
+If the second condition fails, then you should populate the div element of id
+
+output with the message source and destination cannot be the same
+
+You should separate each message with a new line.
